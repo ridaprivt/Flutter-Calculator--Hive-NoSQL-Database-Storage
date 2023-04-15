@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:calculator/provider/calculator_provider.dart';
+import 'package:calculator/controller/calculator_provider.dart';
 import 'package:calculator/main.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';

@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:calculator/provider/calculator_provider.dart';
-import 'package:calculator/screens/calculator.dart';
+import 'package:calculator/controller/calculator_provider.dart';
+import 'package:calculator/views/calculator.dart';
+import 'package:calculator/views/history.dart';
 import 'package:calculator/model/historyitem.dart';
-import 'package:calculator/screens/history.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
@@ -63,7 +63,7 @@ AppBar appbar(
   IconData icon,
   Function() tap,
 ) {
-return AppBar(
+  return AppBar(
     actions: [
       IconButton(
         onPressed: tap,
